@@ -772,6 +772,8 @@ public class EntityVillagerMCA extends EntityVillager {
             this.targetTasks.addTask(0, new EntityAINearestAttackableTarget(this, EntityZombie.class, 100, false, false, null));
             this.targetTasks.addTask(0, new EntityAINearestAttackableTarget(this, EntityVex.class, 100, false, false, null));
             this.targetTasks.addTask(0, new EntityAINearestAttackableTarget(this, EntityVindicator.class, 100, false, false, null));
+            this.targetTasks.addTask(0, new EntityAINearestAttackableTarget(this, EntityMobHostileDay.class, 100, false, false, null));
+            this.targetTasks.addTask(0, new EntityAINearestAttackableTarget(this, EntityMobHostileBase.class, 100, false, false, null));
         }
     }
 
